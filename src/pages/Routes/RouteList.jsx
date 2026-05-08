@@ -3,7 +3,6 @@ import { Card, List, Button, Empty, Spin } from 'antd';
 import { PlusOutlined, EyeOutlined } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
 import { routeApi } from '../../services/api';
-import './Routes.css';
 
 const RouteList = () => {
   const [routes, setRoutes] = useState([]);

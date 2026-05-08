@@ -3,6 +3,7 @@ import { Card, List, Button, Empty, Spin, Select } from 'antd';
 import { UploadOutlined, EyeOutlined } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
 import { knowledgeApi } from '../../services/api';
+import ChatWindow from '../../components/ChatWindow';
 
 const { Option } = Select;
 

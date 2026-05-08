@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Layout } from 'antd';
-import Home from './pages/Home';
+import Chat from './pages/Chat';
 import RouteList from './pages/Routes/RouteList';
 import RouteCreate from './pages/Routes/RouteCreate';
 import RouteDetail from './pages/Routes/RouteDetail';
@@ -20,7 +20,7 @@ function App() {
         <Navbar />
         <Content style={{ padding: '20px' }}>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Chat />} />
             <Route path="/routes" element={<RouteList />} />
             <Route path="/routes/create" element={<RouteCreate />} />
             <Route path="/routes/:id" element={<RouteDetail />} />
